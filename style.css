@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+#hora {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+#fecha, #ubicacion {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
